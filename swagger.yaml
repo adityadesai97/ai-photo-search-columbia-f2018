@@ -13,7 +13,7 @@ paths:
     get:
       summary: photo search method
       description: |
-        This API takes in a search query as a query parameter and returns zero or more photos that match the search query.
+        This API takes in a query as a query parameter and returns zero or more photos that match the search query.
       operationId: searchPhotos
       parameters:
         - in: query
